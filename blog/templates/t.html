@@ -1,0 +1,8 @@
+<html>
+<body>
+  {% for title, link, image in posts %}
+  <p><a href={{ link }}>{{title}}</a></p>
+  <img src={{image}} />
+  {% endfor %}
+</body>
+</html>
